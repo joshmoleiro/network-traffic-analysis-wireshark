@@ -34,4 +34,7 @@ A SIEM alert flagged NetSupport Manager RAT activity from the external IP 45.131
 **Analysis**
 I filtered the traffic by the known C2 IP which was 45.131.214.85 to confirm 10.2.28.88 was the communicating internal host. Then I used the NBNS filter to be able to identify the hostname and the Kerberos AS-REP packet to be able to extract the user account name.
 **Malware**
-- NetSupport Manager RAT: This is a remote access tool that is used by attackers to maintain persistent access to compromised machines. 
+- NetSupport Manager RAT: This is a remote access tool that is used by attackers to maintain persistent access to compromised machines.
+![C2 Communication](c2-communication.png)
+![Hostname via NBNS](hostname-nbns.png)
+![Username via Kerberos](username-kerberos.png)
