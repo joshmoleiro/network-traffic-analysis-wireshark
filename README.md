@@ -36,5 +36,5 @@ I filtered the traffic by the known C2 IP which was 45.131.214.85 to confirm 10.
 **Malware**
 - NetSupport Manager RAT: This is a remote access tool that is used by attackers to maintain persistent access to compromised machines.
 ![C2 Communication](c2-communication.png)
-![Hostname via NBNS](hostname-nbns.png)
+![Hostname via NBNS](hostname-nbs.png)
 ![Username via Kerberos](username-kerberos.png)
